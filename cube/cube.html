@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <title>Document</title>
+
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .swiper{
+      width: 500px;
+      height: 500px;
+      margin-top: 50px;
+    }
+
+    .swiper-slide:nth-child(1){
+      background-color: lightblue;
+    }
+
+    .swiper-slide:nth-child(2){
+      background-color: lightcoral;
+    }
+
+    .swiper-slide:nth-child(3){
+      background-color: lightyellow;
+    }
+
+    .swiper-slide:nth-child(4){
+      background-color: lightseagreen;
+    }
+    
+
+  </style>
+
+</head>
+<body>
+
+  <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"></div>
+    <div class="swiper-slide"></div>
+    <div class="swiper-slide"></div>
+    <div class="swiper-slide"></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <!-- <div class="swiper-pagination"></div> -->
+
+  <!-- If we need navigation buttons -->
+  <!-- <div class="swiper-button-prev"></div> -->
+  <!-- <div class="swiper-button-next"></div> -->
+
+  <!-- If we need scrollbar -->
+  <!-- <div class="swiper-scrollbar"></div> -->
+</div>
+
+  <script src="js/main.js"></script>
+  
+</body>
+</html>
