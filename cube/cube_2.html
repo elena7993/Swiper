@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <title>Document</title>
+
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .wrapper{
+      width: 300px;
+      height: 300px;
+    }
+
+    .swiper_horizontal,
+    .swiper_vertical{
+      width: 100%;
+      height: 300px;
+      margin: 20px;
+    }
+
+
+    .swiper_horizontal .swiper-slide:nth-child(1){
+      background-color: lightblue;
+    }
+
+    .swiper_horizontal .swiper-slide:nth-child(2){
+      background-color: lightcoral;
+    }
+
+    .swiper_horizontal .swiper-slide:nth-child(3){
+      background-color: lightyellow;
+    }
+
+    .swiper_horizontal .swiper-slide:nth-child(4){
+      background-color: lightseagreen;
+    }
+
+    .swiper_vertical .swiper-slide:nth-child(1){
+      background-color: lightblue;
+    }
+
+    .swiper_vertical .swiper-slide:nth-child(2){
+      background-color: lightcoral;
+    }
+
+    .swiper_vertical .swiper-slide:nth-child(3){
+      background-color: lightyellow;
+    }
+
+    .swiper_vertical .swiper-slide:nth-child(4){
+      background-color: lightseagreen;
+    }
+    
+
+  </style>
+
+</head>
+<body>
+
+<div class="wrapper">
+
+  <div class="swiper_horizontal">
+ 
+    <div class="swiper-wrapper">
+  
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      
+    </div>
+
+  </div>
+
+  <div class="swiper_vertical">
+
+    <div class="swiper-wrapper">
+  
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      
+    </div>
+ 
+  </div>
+
+  <script src="js/main_2.js"></script>
+  
+</body>
+</html>
