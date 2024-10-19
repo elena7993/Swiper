@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <title>Document</title>
+
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    img{
+      width: 100%;
+      display: block;
+    }
+
+    .swiper{
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .swiper-zoom-container{
+      width: 400px;
+      height: 350px;
+      /* background-color: lightyellow; */
+      overflow: hidden;
+    }
+
+
+
+  </style>
+
+</head>
+<body>
+
+  <div class="swiper">
+
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+          <img class="zoomed_img" src="https://image.msscdn.net/mfile_s01/_news/cover620dd827eba8e.jpg?ver=v=20220217150001" />
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="swiper-zoom-container">
+          <img src="https://image.msscdn.net/mfile_s01/_news/cover601cdcfd250ae.jpg?ver=v=20210205162133" />
+        </div>
+      </div>
+
+      <!-- <div class="swiper-slide"></div> -->
+
+      <div class="swiper-slide">
+        <!-- Override maxRatio parameter -->
+        <div class="swiper-zoom-container" data-swiper-zoom="5">
+          <img src="https://www.outdoornews.co.kr/news/photo/202009/32053_90405_3547.jpg" />
+        </div>
+
+      </div>
+
+    </div>
+
+    <button class="rotate_btn">Rotate</button>
+  </div>
+
+
+  <script src="js/main.js"></script>
+  
+</body>
+</html>
